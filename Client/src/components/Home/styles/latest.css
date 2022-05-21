@@ -1,0 +1,17 @@
+h1.latest {
+    font-size: 23px;
+    font-weight: 500;
+    position: relative;
+    display: inline-block;
+    margin: 40px 0px;
+}
+
+h1.latest::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 90px;
+    background: red;
+    bottom: -10px;
+    left: 0;
+}

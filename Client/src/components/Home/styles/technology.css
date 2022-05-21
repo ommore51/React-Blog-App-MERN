@@ -1,0 +1,11 @@
+.Technology {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:760px) {
+    .Technology {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,69 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header span {
+    font-size: 32px;
+    font-weight: 400;
+    transform: rotate(270deg);
+    margin-right: 3px;
+
+}
+
+.header_1 {
+    width: 100%;
+    height: 87px;
+}
+
+.header h1 {
+    font-size: 71px;
+}
+
+.icon {
+    display: none;
+}
+
+
+
+@media screen and (max-width:760px) {
+    .header_1 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .header {
+        width: 100%;
+        height: auto;
+        justify-content: left;
+
+    }
+
+    .header span {
+        font-size: 35px;
+    }
+
+    .header h1 {
+        font-size: 45px;
+    }
+
+    .icon {
+        display: flex;
+        align-items: center;
+    }
+
+    .icon .hamburger {
+        position: absolute;
+        right: 5%;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+
+}

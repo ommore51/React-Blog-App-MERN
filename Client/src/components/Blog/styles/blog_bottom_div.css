@@ -1,0 +1,18 @@
+.blog_bottom_div_img img {
+    width: 350px;
+    height: 200px;
+}
+
+.blog_bottom_div_title {
+    width: 300px;
+    height: 85px;
+    margin-top: 15px;
+
+}
+
+
+.blog_bottom_div {
+
+    margin-top: 15px;
+    padding-top: 65px;
+}

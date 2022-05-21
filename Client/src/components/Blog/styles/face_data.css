@@ -1,0 +1,23 @@
+.face_data {
+    display: flex;
+    margin: 25px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.face img {
+    width: 93px;
+    height: 93px;
+}
+
+.data {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 9px;
+}
+
+.data_name {
+    padding: 15px 0px;
+}

@@ -1,0 +1,15 @@
+.card-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+@media screen and (max-width:760px) {
+    .card-section {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+}

@@ -1,0 +1,11 @@
+.Hollywood {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:760px) {
+    .Hollywood {
+        display: flex;
+        flex-direction: column;
+    }
+}

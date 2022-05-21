@@ -1,0 +1,10 @@
+.bollywood {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:760px) {
+    .bollywood {
+        flex-direction: column;
+    }
+}
